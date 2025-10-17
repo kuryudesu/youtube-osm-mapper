@@ -54,7 +54,7 @@ You will need Node.js and a package manager like npm, yarn, or pnpm installed on
 8.  **Run the python server:**
     ```sh
     & YOUR_PATH/youtube-osm-mapper/.venv/Scripts/Activate.ps1
-    #uvicorn main:app --reload
+    uvicorn main:app --reload
     ```
 
 ## Available Scripts
