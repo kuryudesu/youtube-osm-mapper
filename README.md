@@ -51,11 +51,12 @@ You will need Node.js and a package manager like npm, yarn, or pnpm installed on
     ```sh
     pip install -r requirements.txt
     ```
-8.**Run the python server:**
+8.  **Run the python server:**
     ```sh
     & YOUR_PATH/youtube-osm-mapper/.venv/Scripts/Activate.ps1
     #uvicorn main:app --reload
     ```
+
 ## Available Scripts
 
 In the project directory, you can run the following commands:
