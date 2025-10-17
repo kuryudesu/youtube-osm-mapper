@@ -49,6 +49,7 @@ You will need Node.js and a package manager like npm, yarn, or pnpm installed on
    
 7.  **Install python dependencies:**
     ```sh
+    python -m venv .venv
     pip install -r requirements.txt
     ```
 8.  **Run the python server:**
