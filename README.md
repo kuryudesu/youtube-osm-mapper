@@ -45,9 +45,17 @@ You will need Node.js and a package manager like npm, yarn, or pnpm installed on
     ```
 
 5.  Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the main page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
-
+6.  You can start editing the main page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
+   
+7.  **Install python dependencies:**
+    ```sh
+    pip install -r requirements.txt
+    ```
+8.**Run the python server:**
+    ```sh
+    & YOUR_PATH/youtube-osm-mapper/.venv/Scripts/Activate.ps1
+    #uvicorn main:app --reload
+    ```
 ## Available Scripts
 
 In the project directory, you can run the following commands:
